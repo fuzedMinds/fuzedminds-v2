@@ -14,7 +14,7 @@ const Training = () => {
         <meta name="description" content="Join our Training program at Fuzed Minds and start your IT career." />
       </Helmet>
 
-      <div id="training" className="training">
+      <div id="training" className="w-full bg-gradient-to-br from-blue-50 via-green-50 to-blue-100 overflow-hidden">
         <div>
           <NavBar />
         </div>
@@ -23,7 +23,12 @@ const Training = () => {
             id="home"
             className="flex flex-col lg:flex-row py-28 justify-between text-center lg:text-left"
           >
-            <div className="lg:w-1/2 flex flex-col justify-center">
+            <div className="lg:w-1/2 flex flex-col justify-center items-center">
+              <img
+                src={img1}
+                alt="Training Banner"
+                className="w-full max-w-xs md:max-w-md rounded-2xl drop-shadow-lg mb-8"
+              />
               <h1 className="mb-5 text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900">
                 {/* We build digital solutions to help businesses scale */}
                 Become a software engineer with our comprehensive

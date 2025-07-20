@@ -48,13 +48,10 @@ function App() {
             <Route path="/skilldevelopment" element={<SkillDevelopment />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/career" element={<Career />} />
-            <Route path="/internship" element={<SkillDevelopment />} />
-            <Route path="/training" element={<Training />} />
-            <Route
-              path="/applicationdevelopement"
-              element={<ApplicationDevelopement />}
-            />
-            <Route path="/demo" element={<DemoProduct />} />
+            {/* <Route path="/internship" element={<SkillDevelopment />} /> */}
+            {/* <Route path="/training" element={<Training />} /> */}
+            {/* <Route path="/applicationdevelopement" element={<ApplicationDevelopement />} /> */}
+            {/* <Route path="/demo" element={<DemoProduct />} /> */}
           </Routes>
         </ScrollToTop>
       </Router>
