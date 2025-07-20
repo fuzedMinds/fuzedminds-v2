@@ -15,8 +15,8 @@ const NavLinks = () => {
   }, []);
   
   const isActive = (path) => {
-    if (path === "/home#" && location.pathname === "/home") return true;
-    if (path === "/#about" && location.pathname === "/") return true;
+    if ((path === "/home#" && location.pathname === "/home") || (path === "/home#" && location.pathname === "/")) return true;
+    if (path === "/#about" && location.pathname === "/" && location.hash === "#about") return true;
     if (path === "/services#" && location.pathname === "/services") return true;
     if (path === "/skilldevelopment#" && location.pathname === "/skilldevelopment") return true;
     if (path === "/contact#" && location.pathname === "/contact") return true;
